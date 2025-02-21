@@ -1,3 +1,29 @@
-[] Learn some HTML ;-; 
+[-] Learn some HTML ;-; - DO THIS LATER
 [] Make project plan 
 [] Download HTML CSS stuff and Extensions 
+[] See about doing HTML and CSS as a module for this class
+
+Things to learn: 
+[X] Variables (let, const, var)
+[X] Data types (strings, numbers, booleans, arrays, objects)
+[X] Operators (+, -, *, /, ===, &&, ||)
+[X] Conditionals (if, else, switch)
+[X] Loops (for, while)
+[X] Functions (function myFunc() {} and const myFunc = () => {})
+
+
+Plan: Learn About Number app
+
+
+NOTES FOR REFERENCE: 
+
+data types:
+    - String
+    - Number - both int and float - can use exp. notation
+    - Bigint - beeg number 
+    - Boolean
+    - Undefined - both value and type
+    - Null
+    - Symbol
+    - Object - Arrays, Object (dictionary)
+    use typeof to figure this out in debugging
