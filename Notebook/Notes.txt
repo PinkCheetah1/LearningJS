@@ -2,6 +2,7 @@
 [] Make project plan 
 [] Download HTML CSS stuff and Extensions 
 [] See about doing HTML and CSS as a module for this class
+[] See about maybe learning React as a module? 
 
 Things to learn: 
 [X] Variables (let, const, var)
@@ -13,6 +14,13 @@ Things to learn:
 
 
 Plan: Learn About Number app
+Base app: 
+    [] User enters number and program prints number back
+    [] App tells user what numbers app is divisible by
+    [] Tell user if it is a prime number 
+Stretch goals:
+    [] Tell user what prime number is closest
+    [] Give user prime factor code :D 
 
 
 NOTES FOR REFERENCE: 
