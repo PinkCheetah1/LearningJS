@@ -35,3 +35,25 @@ data types:
     - Symbol
     - Object - Arrays, Object (dictionary)
     use typeof to figure this out in debugging
+
+
+
+How to use arrow functions:
+
+    [functionName] = function() {
+        return [returnWhatever]
+    }
+
+could become...
+
+    [functionName] = () => {
+        return [returnWhatever]
+    }
+
+could become... (if only one line of code, and returns the product of that line)
+
+    [functionName] = ([whateverInput]) => [whateverCode];
+
+^ this returns the product of [whateverCode]
+
+You can call any of these with functionName() and it will return returnWhatever
