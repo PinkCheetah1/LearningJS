@@ -8,20 +8,33 @@
 
     <body>
         <h1>Learn about Numbers!</h1>
-
-        <p id="text">Nothing here</p>
-        <button type="button" onclick="buttonClick()">Click button</button>
-
-        <form id="form">
+        <form id="form" onsubmit="return validateForm()">
             <label for="num">Please input a number to learn about:</label><br>
             <input type="text" id="num" name="num"><br>                 
-            <!-- <input type="checkbox" id="factors-cb" name="factors-cb">
-            <label for="factors-cb">Show Factors</label><br>
-            <input type="checkbox" id="prime-factorization-cb" name="prime-factorization-cb">
-            <label for="prime-factorization-cb">Show Prime Factorization</label><br>
-            <input type="checkbox" id="nearest-prime-cb" name="nearest-prime-cb">
-            <label for="nearest-prime-cb">Find Nearest Prime Number</label><br> -->
             <input type="submit" value="Start Learning">
         </form>
+
+        <section id="error-box" style="display: none">
+            <p id="error-message"></p>
+        </section>
+
+        <section id="results" style="display: none">
+            <section id="is-prime-box" class="results-box">
+                <h2>Is it Prime?</h2>
+                <p id="is-prime-text"></p>
+            </section>
+            <section id="factors-box" class="results-box">
+                <h2>Factors:</h2>
+                <p id="factors-text"></p>
+            </section>
+            <section id="number-pairs-box" class="results-box">
+                <h2>Number Pairs:</h2>
+                <pre id="number-pairs-text"></pre>
+            </section>
+            <section id="multiples-box" class="results-box">
+                <h2>Number Multiplied:</h2>
+                <pre id="multiples-text"></pre>
+            </section>
+        </section>
     </body>
 </html>

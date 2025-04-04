@@ -6,7 +6,7 @@
 |Hannah Crenshaw|2/18/25|Porter McGary|
 
 ### Software Description 
-At a high level, describe the software you plan to create that will fulfill the requirements of this module.  This may change as you learn more about the technology or language you are learning.
+I will create a web application that allows the user to input a number and then learn things about it, like what factors it has, its multiplication pairs, etc. 
 
 ### Module
 Mark an **X** next to the module you are planning
